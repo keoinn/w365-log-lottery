@@ -66,35 +66,35 @@ export const defaultMusicList = [
 export const defaultPrizeList = <IPrizeConfig[]>[
   {
     id: '001',
-    name: '三等奖',
+    name: '三等獎',
     sort: 1,
     isAll: false,
     count: 3,
     isUsedCount: 0,
     picture: {
       id: '2',
-      name: '三等奖',
+      name: '三等獎',
       url: 'https://1kw20.fun/resource/image/image3.png',
     },
     separateCount: {
       enable: true,
       countList: [],
     },
-    desc: '三等奖',
+    desc: '三等獎',
     isShow: true,
     isUsed: false,
     frequency: 1,
   },
   {
     id: '002',
-    name: '二等奖',
+    name: '二等獎',
     sort: 2,
     isAll: false,
     count: 2,
     isUsedCount: 0,
     picture: {
       id: '1',
-      name: '二等奖',
+      name: '二等獎',
       url: 'https://1kw20.fun/resource/image/image2.png',
     },
     separateCount: {
@@ -108,14 +108,14 @@ export const defaultPrizeList = <IPrizeConfig[]>[
   },
   {
     id: '003',
-    name: '一等奖',
+    name: '一等獎',
     sort: 3,
     isAll: false,
     count: 1,
     isUsedCount: 0,
     picture: {
       id: '0',
-      name: '一等奖',
+      name: '一等獎',
       url: 'https://1kw20.fun/resource/image/image1.png',
     },
     separateCount: {
@@ -129,14 +129,14 @@ export const defaultPrizeList = <IPrizeConfig[]>[
   },
   {
     id: '004',
-    name: '超级大奖',
+    name: '超級大獎',
     sort: 4,
     isAll: false,
     count: 1,
     isUsedCount: 0,
     picture: {
       id: '3',
-      name: '超级奖',
+      name: '超級大獎',
       url: 'https://1kw20.fun/resource/image/image4.png',
     },
     separateCount: {
@@ -150,21 +150,21 @@ export const defaultPrizeList = <IPrizeConfig[]>[
   },
   {
     id: '005',
-    name: '特别奖',
+    name: '特別獎',
     sort: 5,
     isAll: false,
     count: 1,
     isUsedCount: 0,
     picture: {
       id: '4',
-      name: '特别奖',
+      name: '特別獎',
       url: 'https://1kw20.fun/resource/image/image5.png',
     },
     separateCount: {
       enable: false,
       countList: [],
     },
-    desc: '特别奖',
+    desc: '特別獎',
     isShow: true,
     isUsed: false,
     frequency: 1,
@@ -172,21 +172,21 @@ export const defaultPrizeList = <IPrizeConfig[]>[
 ]
 export const defaultCurrentPrize = <IPrizeConfig>{
   id: '001',
-  name: '三等奖',
+  name: '三等獎',
   sort: 1,
   isAll: false,
   count: 12,
   isUsedCount: 0,
   picture: {
     id: '2',
-    name: '三等奖',
+    name: '三等獎',
     url: 'https://1kw20.fun/resource/image/image3.png',
   },
   separateCount: {
     enable: true,
     countList: [],
   },
-  desc: '三等奖',
+  desc: '三等獎',
   isShow: true,
   isUsed: false,
   frequency: 1,
@@ -216,27 +216,27 @@ export const defaultTemporaryPrize = <IPrizeConfig>{
 export const defaultImageList = [
   {
     id: '0',
-    name: '一等奖',
+    name: '一等獎',
     url: 'https://1kw20.fun/resource/image/image1.png',
   },
   {
     id: '1',
-    name: '二等奖',
+    name: '二等獎',
     url: 'https://1kw20.fun/resource/image/image2.png',
   },
   {
     id: '2',
-    name: '三等奖',
+    name: '三等獎',
     url: 'https://1kw20.fun/resource/image/image3.png',
   },
   {
     id: '3',
-    name: '超级奖',
+    name: '超級大獎',
     url: 'https://1kw20.fun/resource/image/image4.png',
   },
   {
     id: '4',
-    name: '特别奖',
+    name: '特別獎',
     url: 'https://1kw20.fun/resource/image/image5.png',
   },
 ]
